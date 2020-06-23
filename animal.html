@@ -1,0 +1,212 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="css\bootstrap.css">
+  <link rel="stylesheet" href="style-slide.css">
+  <title>По мультфильмам</title>
+</head>
+
+<body>
+
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" href="/">Главная</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                aria-expanded="false">
+                Разукрашки</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="./easily.html">Простые Разукрашки</a>
+                <a class="dropdown-item" href="./boys.html">Для мальчиков</a>
+                <a class="dropdown-item" href="./girls.html">Для девочек</a>
+                <a class="dropdown-item" href="./animal.html">По мультфильмам</a>
+                <a class="dropdown-item" href="./hard.html">Для взрослых || Сложные Разукрашки</a>
+                <a class="dropdown-item" href="./num.html">Разукрашки по номерам</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Наши контакты</a>
+        </li>
+    </ul>
+
+    <h1 style="color: rgb(0, 255, 21);" align="center">Раскраски по мультфильмам</h1>
+
+    <div class="pieces-slider">
+        <div class="pupi-slider">
+            <img class="fixet-img" src="" id="slider-img">
+        </div>
+            <button class="prev" id="show-prev" onclick="onShowPrevBtnClick()"> &#10094 </button>
+            <button class="next" id="show-next" onclick="onShowNextBtnClick()"> &#10095 </button>
+    </div>
+
+    <!--Modal Фиксики-->
+    <button style="margin-top: 250px; margin-left: 15%;" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Фиксики
+      </button>
+      
+      <!-- Modal Фиксики -->
+      <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Фиксики</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="./img4/4.jpg" style="width: 400px; height: 400px;">
+              <img src="./img4/11.jpg" style="width: 400px; height: 400px;">
+              <img src="./img4/12.jpg" style="width: 400px; height: 400px;">
+              <img src="./img4/13.jpg" style="width: 400px; height: 400px;">
+              <img src="./img4/14.jpg" style="width: 400px; height: 400px;">
+              <img src="./img4/15.jpg" style="width: 400px; height: 400px;">
+              <img src="./img4/16.jpg" style="width: 400px; height: 400px;">
+              <img src="./img4/17.jpg" style="width: 400px; height: 400px;">
+              <img src="./img4/18.jpg" style="width: 400px; height: 400px;">
+              <img src="./img4/19.jpg" style="width: 400px; height: 400px;">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+              <a class="btn btn-primary" href="./img4/fix.rar" download>Скачать</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Button trigger modal Миньоны -->
+<button style="margin-top: 250px; margin-left: 15px;" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCentered"><ya-tr-span data-index="783-0" data-value="
+    Launch centered demo modal
+   " data-translation="
+    Миньоны
+   " data-type="trSpan">
+   Миньоны
+   </ya-tr-span></button>
+   
+   <!-- Modal Миньоны -->
+   <div class="modal" id="exampleModalCentered" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenteredLabel" aria-hidden="true">
+     <div class="modal-dialog modal-dialog-centered" role="document">
+       <div class="modal-content">
+         <div class="modal-header">
+           <h5 class="modal-title" id="exampleModalCenteredLabel"><ya-tr-span data-index="784-0" data-value="Modal title" data-translation="Модальное название" data-type="trSpan">Миньоны</ya-tr-span></h5>
+           <button type="button" class="close" data-dismiss="modal" aria-label="Закрыть">
+             <span aria-hidden="true"><ya-tr-span data-index="785-0" data-value="×" data-translation="×" data-type="trSpan">×</ya-tr-span></span>
+           </button>
+         </div>
+         <div class="modal-body">
+           <img src="./img4/21.jpg" style="width: 400px; height: 400px;">
+           <img src="./img4/22.jpg" style="width: 400px; height: 400px;">
+           <img src="./img4/23.jpg" style="width: 400px; height: 400px;">
+           <img src="./img4/24.jpg" style="width: 400px; height: 400px;">
+           <img src="./img4/25.jpg" style="width: 400px; height: 400px;">
+           <img src="./img4/26.jpg" style="width: 400px; height: 400px;">
+           <img src="./img4/27.jpg" style="width: 400px; height: 400px;">
+           <img src="./img4/28.jpg" style="width: 400px; height: 400px;">
+           <img src="./img4/29.jpg" style="width: 400px; height: 400px;">
+         </div>
+         <div class="modal-footer">
+           <button type="button" class="btn btn-secondary" data-dismiss="modal"><ya-tr-span data-index="786-0" data-value="Close" data-translation="Закрыть " data-type="trSpan">Закрыть </ya-tr-span></button>
+           <a class="btn btn-primary" href="./img4/min..zip" download>Скачать</a>
+         </div>
+       </div>
+     </div>
+   </div>
+
+   <!-- Button trigger modal Барбоскины -->
+<button style="margin-top: 250px; margin-left: 15px;" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable"><ya-tr-span data-index="790-0" data-value="
+    Launch demo modal
+   " data-translation="
+    Барбоскины
+   " data-type="trSpan">
+   Барбоскины
+   </ya-tr-span></button>
+   
+   <!-- Modal Барбоскины -->
+   <div class="modal" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableLabel" aria-hidden="true">
+     <div class="modal-dialog modal-dialog-scrollable" role="document">
+       <div class="modal-content">
+         <div class="modal-header">
+           <h5 class="modal-title" id="exampleModalCenteredLabel"><ya-tr-span data-index="791-0" data-value="Modal title" data-translation="Модальное название" data-type="trSpan">Барбоскины</ya-tr-span></h5>
+           <button type="button" class="close" data-dismiss="modal" aria-label="Закрыть">
+             <span aria-hidden="true"><ya-tr-span data-index="792-0" data-value="×" data-translation="×" data-type="trSpan">×</ya-tr-span></span>
+           </button>
+         </div>
+         <div class="modal-body">
+           <img src="./img4/31.jpg" style="width: 400px; height: 400px;">
+           <img src="./img4/32.jpg" style="width: 400px; height: 400px;">
+           <img src="./img4/33.jpg" style="width: 400px; height: 400px;">
+           <img src="./img4/34.jpg" style="width: 400px; height: 400px;">
+           <img src="./img4/35.jpg" style="width: 400px; height: 400px;">
+           <img src="./img4/36.jpg" style="width: 400px; height: 400px;">
+           <img src="./img4/37.jpg" style="width: 400px; height: 400px;">
+           <img src="./img4/38.jpg" style="width: 400px; height: 400px;">
+           <img src="./img4/39.jpg" style="width: 400px; height: 400px;">
+         </div>
+         <div class="modal-footer">
+           <button type="button" class="btn btn-secondary" data-dismiss="modal"><ya-tr-span data-index="793-0" data-value="Close" data-translation="Закрыть " data-type="trSpan">Закрыть </ya-tr-span></button>
+           <a class="btn btn-primary" href="./img4/barbos.zip" download>Скачать</a>
+         </div>
+       </div>
+     </div>
+   </div>
+
+   <!-- Button trigger modal разное -->
+<button style="margin-top: 250px; margin-left: 15px;" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3"><ya-tr-span data-index="797-0" data-value="
+    Launch demo modal
+   " data-translation="
+    Разное
+   " data-type="trSpan">
+    Разное
+   </ya-tr-span></button>
+   
+   <!-- Modal разное -->
+   <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
+     <div class="modal-dialog" role="document">
+       <div class="modal-content">
+         <div class="modal-header">
+           <h5 class="modal-title" id="exampleModal3Label"><ya-tr-span data-index="798-0" data-value="Modal title" data-translation="Модальное название" data-type="trSpan">Разное</ya-tr-span></h5>
+           <button type="button" class="close" data-dismiss="modal" aria-label="Закрыть">
+             <span aria-hidden="true"><ya-tr-span data-index="799-0" data-value="×" data-translation="×" data-type="trSpan">×</ya-tr-span></span>
+           </button>
+         </div>
+         <div class="modal-body">
+           <img src="./img4/1.jpg" style="width: 400px; height: 400px;">
+           <img src="./img4/7.jpg" style="width: 400px; height: 400px;">
+           <img src="./img4/41.jpg" style="width: 400px; height: 400px;">
+           <img src="./img4/42.jpg" style="width: 400px; height: 400px;">
+           <img src="./img4/43.jpg" style="width: 400px; height: 400px;">
+           <img src="./img4/44.jpg" style="width: 400px; height: 400px;">
+           <img src="./img4/45.jpg" style="width: 400px; height: 400px;">
+           <img src="./img4/46.jpg" style="width: 400px; height: 400px;">
+           <img src="./img4/47.jpg" style="width: 400px; height: 400px;">
+           <img src="./img4/48.jpg" style="width: 400px; height: 400px;">
+           <img src="./img4/49.jpg" style="width: 400px; height: 400px;">
+         </div>
+         <div class="modal-footer">
+           <button type="button" class="btn btn-secondary" data-dismiss="modal"><ya-tr-span data-index="800-0" data-value="Close" data-translation="Закрыть " data-type="trSpan">Закрыть </ya-tr-span></button>
+           <a class="btn btn-primary" href="./img4/different.zip" download>Скачать</a>
+         </div>
+       </div>
+     </div>
+   </div>
+   
+   
+   <a style="margin-top: 250px; margin-left: 150px;" class="btn btn-primary" href="./img4/all.zip" download>Скачать все картинки</a>
+
+    <script src="./sliderA.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+body{
+    background: url(./img2/b.jpg)no-repeat fixed center;
+}
+.pieces-slider{
+    margin-left: 30%;
+}
+.fixet-img{
+    position: absolute;
+    border:5px solid rgba(128, 128, 128, 0.322);
+    border-radius: 20px;
+    height: 600px;
+    width: 540px;
+    margin-left: 70px;
+}
+button:active, button:focus {
+    outline: none;
+}
+button::-moz-focus-inner {
+    border: 0;
+}
+.prev, .next{
+    background-color: rgba(255, 255, 255, 0.63);
+    margin-top: 30%;
+}
+.next{
+    margin-left: 570px;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 50px;
+    font-size: 30px;
+}
+.next:hover{
+    background-color: rgba(128, 128, 128, 0.322);
+}
+.next:active{
+    color: white;
+    background-color: black;
+}
+.prev{
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 50px;
+    font-size: 30px;
+}
+.prev:hover{
+    background-color: rgba(128, 128, 128, 0.322);
+}
+.prev:active{
+    color: white;
+    background-color: black;
+}
